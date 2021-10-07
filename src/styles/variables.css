@@ -1,0 +1,10 @@
+#root {
+    --primary-box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    --border-white: rgb(232, 232, 232);
+    --zomato-gray: #828282;
+    --zomato-red: #FF7E8B;
+    --zomato-maroon: #EF4F5F;
+    --inactive-text: #696969;
+    --inactive-color: #F8F8F8;
+    --filter-text: #9c9c9c;
+}
