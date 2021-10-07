@@ -1,6 +1,9 @@
 import React from 'react'
 import './delivery.css'
 import Filter from '../common/filter/Filter'
+import DeliveryCollections from './deliveryCollections/DeliveryCollections';
+import ExploreSection from '../common/ExploreSection/ExploreSection';
+import { restaurants } from '../../data/restaurants';
 
 const deliveryFilters = [
     {
@@ -27,11 +30,16 @@ const deliveryFilters = [
     }
 ];
 
+const restaurantList = restaurants;
+
 const Delivery = () => {
     return (
         <div>
-            <div className="max-width"><Filter filterList={deliveryFilters}/></div>
-            
+            <div className="max-width">
+                <Filter filterList={deliveryFilters}/>
+            </div>
+            <DeliveryCollections/>
+            <ExploreSection list={restaurantList} collectionName="Delivery Restaurants"/>
         </div>
     )
 }

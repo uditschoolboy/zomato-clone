@@ -10,3 +10,9 @@
 .cursor-pointer {
     cursor: pointer;
 }
+.collection-title {
+    font-size: 30px;
+    color: var(--heading-text);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
